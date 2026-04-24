@@ -1,6 +1,5 @@
 # filename-Converter
 webサービステスト公開  
-・チャットGPTを使用して作成  
   
 ◻️環境準備  
 ・firefoxを使用して運用することを想定  
