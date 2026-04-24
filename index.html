@@ -43,7 +43,7 @@
     </style>
   </head>
   <body>
-    <h2>商品画像ダウンロードツール（SKU対応）</h2>
+    <h2>商品画像ファイル名変換・ダウンロードツール</h2>
 
     <label
       >出力形式：
@@ -55,12 +55,12 @@
     </label>
 
     <p>
-      行ごとにSKU番号を入力し、横に最大5枚の画像をドラッグ＆ドロップしてください。
+      行ごとにコードを入力し、横に最大5枚の画像をドラッグ＆ドロップしてください。
     </p>
 
     <table id="table">
       <tr>
-        <th>SKU</th>
+        <th>コード</th>
         <th>画像1</th>
         <th>画像2</th>
         <th>画像3</th>
@@ -69,7 +69,7 @@
       </tr>
     </table>
 
-    <button onclick="downloadAllImages()">画像を順番にダウンロード</button>
+    <button onclick="downloadAllImages()">画像ダウンロード</button>
     <button onclick="resetAll()">リセット</button>
 
     <script>
